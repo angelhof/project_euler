@@ -1,7 +1,7 @@
 import sys
 ## Edited from stack overflow answer: http://stackoverflow.com/a/34325723/7819478
 # Print iterations progress
-def printProgressBar (iteration, total, prefix = '', suffix = '', decimals = 1, length = 100, fill = '%'):
+def printProgressBar (iteration, total, prefix = '', suffix = '', decimals = 1, length = 50, fill = '#'):
     """
     Call in a loop to create terminal progress bar
     @params:
